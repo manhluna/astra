@@ -21,3 +21,7 @@ function live(contract,from,to,fn){
         console.log(err);
     }
 }
+
+live(contract(abi,deployed_at),'[address_user]','0x94edbfcF609A410474de5fA5050Dc804163C2AA2',(event) => {
+    //handle events
+})
